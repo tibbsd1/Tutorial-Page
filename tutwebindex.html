@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="tutwebstyle.css">
+    <title>Welcome</title>
+</head>
+<body>
+  <header  class="title-container">
+      <div id= "toptitle" class="title">
+            <h1><b>Learn Javascript</b> 
+            </h1> 
+            
+      </div>
+      <hr>
+
+      
+  </header>
+ 
+   <div class="dropdown-container">
+      <div class="main-menu">
+            <button class="dropdown-btn">Choose Your Lesson</button>
+            
+            <div class="dropdown-content">
+                    <a id="links" href="#funcTitle">Functions</a>
+                    <a id="links" href="#objTitle">Objects</a>
+                    <a id="links" href="#arrTitle">Arrays</a>
+                    
+            </div>
+      </div>
+   </div>
+
+
+    <section class="allText-container">
+        <article class="function-container">
+                <h2 id="funcTitle">Function Basics</h2>
+        <p>The most common way to define a function in JavaScript is by using the function keyword, followed by a unique function name, a list of parameters (that might be empty), and a statement block surrounded by curly braces. To invoke a function somewhere later in the script, you would simply need to write the name of that function as shown in the following code. Till now, we have seen functions without parameters. But there is a facility to pass different parameters while calling a function. These passed parameters can be captured inside the function and any manipulation can be done over those parameters. A function can take multiple parameters separated by comma. A JavaScript function can have an optional return statement. This is required if you want to return a value from a function. This statement should be the last statement in a function. For example, you can pass two numbers in a function and then you can expect the function to return their multiplication in your calling program.</p>
+
+    </article>
+
+    
+
+    <article class="object-container">
+        <h2 id="objTitle">Object Basics</h2>
+        <p>Objects are composed of attributes. If an attribute contains a function, it is considered to be a method of the object, otherwise the attribute is considered a property. Object properties can be any of the three primitive data types, or any of the abstract data types, such as another object. Object properties are usually variables that are used internally in the object's methods, but can also be globally visible variables that are used throughout the page. Methods are the functions that let the object do something or let something be done to it. There is a small difference between a function and a method – at a function is a standalone unit of statements and a method is attached to an object and can be referenced by the this keyword. Methods are useful for everything from displaying the contents of the object to the screen to performing complex mathematical operations on a group of local properties and parameters.</p>
+    </article>
+
+    <article class="arr-container">
+        <h2 id="arrTitle">Array Basics</h2>
+        <p>The Array object lets you store multiple values in a single variable. It stores a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type. ou will use ordinal numbers to access and to set values inside an array. We can store Numbers, Strings and Boolean in a single array. Length property of an Array returns the length of an Array. Length of an Array is always one more than the highest index of an Array. Objects allow you to store keyed collections of values. That’s fine.
+        But quite often we find that we need an ordered collection, where we have a 1st, a 2nd, a 3rd element and so on. For example, we need that to store a list of something: users, goods, HTML elements etc.        
+        It is not convenient to use an object here, because it provides no methods to manage the order of elements. We can’t insert a new property “between” the existing ones. Objects are just not meant for such use. There exists a special data structure named Array, to store ordered collections.</p>
+    </article>
+
+    </section>
+
+    <div class="sidebar">Additional Resources
+        <nav>
+            <a href="https://www.w3schools.com/default.asp" target="_blank">w3schools</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">Mozilla</a>
+            <a href="https://www.youtube.com/watch?v=fju9ii8YsGs" target="_blank">Youtube</a>
+        </nav>
+          </div>
+
+<footer>
+    <p id="footer">Darrell Tibbs: Copyright 2019 ElevenFifty Academy</p>
+</footer>
+</body>
+</html>

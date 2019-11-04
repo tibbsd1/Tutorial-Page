@@ -1,0 +1,179 @@
+
+
+
+
+
+  body{ 
+    margin:0;
+    padding:0; 
+    background-image: url(https://images.pexels.com/photos/1154739/pexels-photo-1154739.jpeg?cs=srgb&dl=architecture-background-contemporary-1154739.jpg&fm=jpg);
+  }
+
+
+  
+ 
+.title-container{
+  
+    
+}
+ .title{
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     font-size: 55px;
+     font-weight: bolder;
+     color: whitesmoke;
+    
+ }
+ hr {
+
+ margin-top:-25px;
+ margin-bottom:120px;
+ margin-left: 80px;
+ margin-right:80px;
+ border: 1px solid whitesmoke;
+ border-radius: 15%;
+}
+.dropdown-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-menu{
+    position: relative;
+   
+
+}
+
+.dropdown-btn{
+    
+    background-color:#FF5A29;
+    color:whitesmoke;
+    padding:35px;
+    font-size:35px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+   
+
+} 
+
+
+
+.dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: #FF5A29;
+        min-width: 417px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        border: .5px solid rgb(214, 76, 34);
+        
+        z-index: 2;
+}
+
+#links{
+display: flex;
+justify-content: center;
+text-decoration: none;
+color:whitesmoke;
+padding:14px;
+font-size:22px;
+font-weight: bolder;
+}
+a:visited {
+    text-decoration: none;
+  }
+
+.dropdown-content a:hover{
+    background-color: #110a01;
+    color: whitesmoke;
+    
+   
+}
+
+.main-menu:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+/* .main-menu:hover .dropdown-btn{
+}*/
+
+.allText-container{
+    margin-left: 80px;
+    margin-right: 80px;
+    /* border: 2px solid whitesmoke; */
+    color: whitesmoke;
+    padding-top: 500px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: .75cm;
+}
+
+
+.function-container{
+    background-color: #FF5A29;
+    border-radius: 10px;
+}
+
+.object-container{
+    margin-top: 300px;
+    background-color: #FF5A29;
+    border-radius: 10px;
+    
+}
+
+.arr-container{
+    margin-top: 300px;
+    background-color: #FF5A29;
+    border-radius: 10px;
+    margin-bottom:300px;
+    
+}
+    
+.sidebar {
+    height: auto; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color:#FF5A29; 
+    overflow-x: hidden; 
+    padding: 10px;
+    border-radius: 5px;
+    color:whitesmoke;
+    font-size: 16px;
+    text-align: center;
+
+  }
+  .sidebar a{
+      text-decoration: none;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      color:#110a01;
+      line-height: .6cm;
+  }
+
+  #footer{
+      color:whitesmoke;
+      margin:0;
+      padding-bottom: 0;
+
+  }
