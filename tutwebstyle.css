@@ -50,8 +50,7 @@
 .dropdown-btn{
     
 
-    -webkit-animation-name: bounceInDown;
-    animation-name: bounceInDown;
+    animation:bounceInDown 1.5s;
     background-color:#FF5A29;
     color:whitesmoke;
     padding:35px;
